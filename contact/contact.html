@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="../FitText.js-master/jquery.fittext.js"></script>
+<script>
+  jQuery("#contact").fitText(1.2); // Turn the compressor up   (resizes more aggressively)
+  jQuery("#contact").fitText(0.8); // Turn the compressor down (resizes less aggressively)
+  jQuery("#contact").fitText(1.2, { minFontSize: '20px', maxFontSize: '40px' });
+</script>
+
+</head>
+
+<body>
+ <header>
+   <div class="contact-grid-container">
+    <video autoplay loop id="video-background" muted plays-inline>
+      <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
+    </video>
+    <div class="grid-item1">
+      <a href="../home/index.html" class="hidden-sm"><img id="smalllogo" src="smalllogo.png" alt="Monica's personal logo"></a>
+    </div>
+      <div class="grid-item2">
+      <ul class="main-nav" class="nav nav-justified" role="tablist">
+        <li><a href="../home/index.html">HOME</a><li>
+        <li class="dropdown">
+          <a style="color: seashell; font-family: ‘Trebuchet, sans-serif; font-weight: 100; font-size: 10pt; text-decoration: none; z-index:10;">WORK</a>
+          <ul class="drop-nav">
+            <li><a href="../logos/logos.html">LOGOS</a><li>
+            <li><a href="../posters/posters.html">POSTERS</a><li>
+            <li><a href="../miscellaneous/miscellaneous.html">MISCELLANEOUS</a><li>
+          </ul>
+        <li>
+        <li><a href="../contact/contact.html">CONTACT</a><li>
+      </ul>
+    </div>
+    <div class="grid-item3">
+      <h3 class="contact">CONTACT</h3>
+    </div>
+  </div>
+</header>
+
+<aside id="sidebarA">
+    </aside>
+
+
+<section>
+  <header class='contact-form-header'>
+    <h4>Let's talk about it</h4>
+  </header>
+  <form action='' method='get' class='contact-form'>
+    <div class='form-row'>
+      <label for='full-name'>Name</label>
+      <input style="padding:7px" id='full-name' name='full-name' type='text'/>
+    </div>
+    <div class='form-row'>
+      <label for='email'>Email</label>
+      <input style="padding:7px" id='email'
+         name='email'
+         type='email'
+         placeholder='name@example.com'/>
+    </div>
+    <div class='form-row'>
+      <label for='phone'>Phone</label>
+      <input style="padding:7px" id='phone'
+         name='phone'
+         type='phone'
+         placeholder='xxx-xxx-xxxx'/>
+    </div>
+    <fieldset class='legacy-form-row'>
+       <legend>I'm contacting as a(n):</legend>
+       <input id='individual'
+              name='individual-company'
+              type='radio'
+              value='Individual' />
+       <label for='individual' class='radio-label'>Individual</label>
+       <input id='company'
+              name='individual-company'
+              type='radio'
+              value='Company'
+              checked />
+       <label for='company' class='radio-label'>Company/Organization</label>
+    </fieldset>
+    <div class='form-row'>
+      <label for='company'>Company/Organization Name</label>
+      <input style="padding:7px" id='company'
+         name='company'
+         type='text'/>
+    </div>
+    <div class='form-row'>
+      <label for='service'>I need help with</label>
+      <select id='service' name='service'>
+        <option value='xs'>Brand Strategy</option>
+        <option value='s'>Visual Identity (logo, etc.)</option>
+        <option value='m'>Packaging/Marketing Collateral</option>
+        <option value='l'>Campaign/Promotion</option>
+        <option value='l'>Other</option>
+      </select>
+    </div>
+    <div class='form-row'>
+      <label for='message'>Message</label>
+      <textarea id='message' name='message'></textarea>
+      <div class='instructions'>How can we work together?</div>
+    </div>
+    <div class='form-row'>
+      <div class='form-row'>
+        <label class='checkbox-label' for='available'>
+        <input id='available'
+               name='available'
+               type='checkbox'
+               value='is-available'/>
+        <span>Add me to your blog mailing list!</span>
+        </label>
+      </div>
+      <button>SUBMIT</button>
+    </div>
+  </form>
+  <div class=columnright>
+          <p style="font-family: Trebuchet, sans-serif; font-size: 1.25em; margin:40px 0px 80px 0px">EMAIL: MONICA.K.MURRAY@NDSU.EDU <br><br><br> PHONE: 507.993.7285</p>
+          <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="monica-murray-098265127"><a class="LI-simple-link" href='https://www.linkedin.com/in/monica-murray-098265127?trk=profile-badge'>LinkedIn Profile</a>
+          </div>
+          <p style="font-family: Trebuchet, sans-serif; font-size: 10px; width: 500px; padding: 100px 0px 0px 0px">Every project will vary in price, but here's a quick way to estimate how much your product will run you:</p>
+          <table>
+            <thead>
+              <tr>
+                <th>SERVICE</th>
+                <th>HOURLY</th>
+                <th>AVG COST PER PROJECT</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Brand Strategy</td>
+                <td>$$$$</td>
+                <td>$$$$</td>
+              </tr>
+              <tr>
+                <td>Visual Identity</td>
+                <td>$$$$</td>
+                <td>$$$$</td>
+              </tr>
+              <tr>
+                   <td>Packaging/Marketing Collateral</td>
+                   <td>$$$$</td>
+                   <td>$$$$</td>
+                 </tr>
+                 <tr>
+                      <td>Campaign/Promotion</td>
+                      <td>$$$$</td>
+                      <td>$$$$</td>
+                    </tr>
+               </tbody>
+             </table>
+      </div>
+  </div>
+  </section>
+
+    <aside id="sidebarB">
+    </aside>
+
+    <footer>
+      <p style="text-align: center">contact: monica.k.murray@ndsu.edu</p>
+    </footer>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

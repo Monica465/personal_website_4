@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <script src="../jquery-3.3.1.min.js"></script>
+  <script src="../jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $(".main-nav").first().delay(100).animate({'opacity':'1'},600);
+      $("#hero").last().delay(400).animate({'opacity':'1'},600);
+      $(".col-lg-3").delay(600).animate({'opacity':'1'},800);
+      $("#img2").delay(1000).animate({'opacity':'1'},800);
+      $("p").delay(1300).animate({'marginTop':'+=-80px','opacity':'1'},800);
+    });
+  </script>
+
+</head>
+<body>
+
+  <header>
+      <header class="home_header">
+        <div class="home-grid-container">
+          <div class="grid-item1"
+            <a href="index.html" ><img class="hidden-xs" class="hidden-sm" id="smalllogo" src="smalllogo.png" alt="Monica's personal logo"></a>
+          </div>
+            <video playsinline autoplay muted loop id="bgvid">
+              <source src="foggy_mountain.mp4" type="video/mp4">
+            </video>
+          <div class="grid-item2">
+            <ul class="main-nav" class="nav nav-tabs nav-justified" role="tablist">
+            	<li><a href="../home/index.html">HOME</a><li>
+                <li class="dropdown">
+                  <a style="color: seashell; font-family: ‘Trebuchet, sans-serif; font-weight: 100; font-size: 10pt; text-decoration: none; z-index:10;">WORK</a>
+                  <ul class="drop-nav">
+                    <li><a href="../logos/logos.html">LOGOS</a><li>
+                    <li><a href="../posters/posters.html">POSTERS</a><li>
+                    <li><a href="../miscellaneous/miscellaneous.html">MISCELLANEOUS</a><li>
+                  </ul>
+                <li>
+            	<li><a href="../contact/contact.html">CONTACT</a><li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </header>
+
+
+<aside id="sidebarA">
+    </aside>
+
+	<section>
+
+        <div class="col4">
+
+            <img class="hidden-xs" class="hidden-sm" id="hero" src="logowithtext.png" alt="Monica Murray Design Logo">
+
+        </div>
+
+        <div class="container" style="padding:50px 0 60px 0">
+          <div class="row justify-content-md-center">
+            <div class="col-lg-3">
+              <a href="../logos/logos.html" role="button" button type="LOGOS"  class="btn btn-default btn-outline-light btn-lg">LOGOS</a>
+            </div>
+            <div class="col-lg-3">
+              <a href="../posters/posters.html" role="button" button type="POSTERS"  class="btn btn-default btn-outline-light btn-lg">POSTERS</a>
+            </div>
+            <div class="col-lg-3">
+              <a href="../miscellaneous/miscellaneous.html" role="button" button type="MISCELLANEOUS"  class="btn btn-default btn-outline-light btn-lg">MISCELLANEOUS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col4">
+          <img id="img2" src="monicaphoto.jpg" alt="Monica Smiling">
+          <p class="text-justify" style="margin-right:30px; padding-left:5%; padding-right:5%">Growing up in the medical community of Rochester, MN, I always dreamed of being a nurse. However, my dreams changed, as dreams often do, when I found that my interests and skills lay in creating appealing arrangements; whether that be arrangements of words in an essay, furniture in a room, or information on a poster.
+            <br>
+            <br>
+            An ability to stay organized, scrutinize details, communicate clearly, and arrange beautifully have long been strengths of mine, and continue to naturally saturate all that I do. Now as a student at North Dakota State University, I am learning the essential tools of marketing and design to promote people and organizations that seek to improve our world.
+          </p>
+          <p style="clear: both;">
+        </div>
+
+
+	</section>
+
+    <aside id="sidebarB">
+    </aside>
+
+    <footer>
+      <p style="text-align: center">contact: monica.k.murray@ndsu.edu</p>
+    </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
